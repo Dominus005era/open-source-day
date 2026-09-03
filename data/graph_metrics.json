@@ -1,0 +1,633 @@
+{
+  "network_statistics": {
+    "total_articles (nodes)": 498,
+    "total_hyperlinks (edges)": 3020,
+    "graph_density": 0.012202,
+    "is_strongly_connected": false,
+    "is_weakly_connected": true
+  },
+  "top_knowledge_hubs": [
+    {
+      "name": "Space Race",
+      "pagerank_authority": 0.034491,
+      "in_degree": 64,
+      "out_degree": 7,
+      "betweenness_centrality": 0.005989,
+      "structural_health": 63.05,
+      "quality_tier": "C Class",
+      "word_count": 1009,
+      "rank": 1
+    },
+    {
+      "name": "General Relativity",
+      "pagerank_authority": 0.027392,
+      "in_degree": 67,
+      "out_degree": 4,
+      "betweenness_centrality": 0.003959,
+      "structural_health": 95.15,
+      "quality_tier": "B Class",
+      "word_count": 2250,
+      "rank": 2
+    },
+    {
+      "name": "Game Theory",
+      "pagerank_authority": 0.023033,
+      "in_degree": 68,
+      "out_degree": 7,
+      "betweenness_centrality": 0.002943,
+      "structural_health": 96.9,
+      "quality_tier": "B Class",
+      "word_count": 1665,
+      "rank": 3
+    },
+    {
+      "name": "James Webb Space Telescope",
+      "pagerank_authority": 0.022672,
+      "in_degree": 64,
+      "out_degree": 3,
+      "betweenness_centrality": 0.002558,
+      "structural_health": 59.58,
+      "quality_tier": "Start Class",
+      "word_count": 496,
+      "rank": 4
+    },
+    {
+      "name": "Nile River Basin",
+      "pagerank_authority": 0.022608,
+      "in_degree": 60,
+      "out_degree": 5,
+      "betweenness_centrality": 0.002242,
+      "structural_health": 44.37,
+      "quality_tier": "Stub Class",
+      "word_count": 148,
+      "rank": 5
+    },
+    {
+      "name": "Graphene",
+      "pagerank_authority": 0.022377,
+      "in_degree": 57,
+      "out_degree": 7,
+      "betweenness_centrality": 0.003232,
+      "structural_health": 100.0,
+      "quality_tier": "Good / Featured Article",
+      "word_count": 3558,
+      "rank": 6
+    },
+    {
+      "name": "Sociology of Knowledge",
+      "pagerank_authority": 0.021693,
+      "in_degree": 45,
+      "out_degree": 6,
+      "betweenness_centrality": 0.002514,
+      "structural_health": 63.28,
+      "quality_tier": "C Class",
+      "word_count": 1716,
+      "rank": 7
+    },
+    {
+      "name": "Photosynthesis",
+      "pagerank_authority": 0.020881,
+      "in_degree": 44,
+      "out_degree": 8,
+      "betweenness_centrality": 0.003397,
+      "structural_health": 93.86,
+      "quality_tier": "B Class",
+      "word_count": 1850,
+      "rank": 8
+    },
+    {
+      "name": "Public Health",
+      "pagerank_authority": 0.02061,
+      "in_degree": 59,
+      "out_degree": 9,
+      "betweenness_centrality": 0.004728,
+      "structural_health": 64.67,
+      "quality_tier": "Start Class",
+      "word_count": 333,
+      "rank": 9
+    },
+    {
+      "name": "Kabuki Theatre",
+      "pagerank_authority": 0.020189,
+      "in_degree": 57,
+      "out_degree": 5,
+      "betweenness_centrality": 0.002489,
+      "structural_health": 37.74,
+      "quality_tier": "Stub Class",
+      "word_count": 79,
+      "rank": 10
+    },
+    {
+      "name": "Byzantine Empire",
+      "pagerank_authority": 0.020125,
+      "in_degree": 53,
+      "out_degree": 7,
+      "betweenness_centrality": 0.003651,
+      "structural_health": 59.2,
+      "quality_tier": "C Class",
+      "word_count": 2134,
+      "rank": 11
+    },
+    {
+      "name": "Postmodern Literature",
+      "pagerank_authority": 0.019608,
+      "in_degree": 56,
+      "out_degree": 3,
+      "betweenness_centrality": 0.001873,
+      "structural_health": 61.35,
+      "quality_tier": "Start Class",
+      "word_count": 529,
+      "rank": 12
+    },
+    {
+      "name": "Industrial Revolution",
+      "pagerank_authority": 0.019453,
+      "in_degree": 56,
+      "out_degree": 3,
+      "betweenness_centrality": 0.00171,
+      "structural_health": 83.68,
+      "quality_tier": "B Class",
+      "word_count": 2527,
+      "rank": 13
+    },
+    {
+      "name": "Film Noir",
+      "pagerank_authority": 0.019237,
+      "in_degree": 54,
+      "out_degree": 9,
+      "betweenness_centrality": 0.004096,
+      "structural_health": 98.09,
+      "quality_tier": "B Class",
+      "word_count": 2086,
+      "rank": 14
+    },
+    {
+      "name": "Renaissance Art",
+      "pagerank_authority": 0.018673,
+      "in_degree": 39,
+      "out_degree": 7,
+      "betweenness_centrality": 0.002024,
+      "structural_health": 70.35,
+      "quality_tier": "Start Class",
+      "word_count": 2560,
+      "rank": 15
+    },
+    {
+      "name": "Impressionism",
+      "pagerank_authority": 0.018396,
+      "in_degree": 61,
+      "out_degree": 6,
+      "betweenness_centrality": 0.002954,
+      "structural_health": 93.68,
+      "quality_tier": "B Class",
+      "word_count": 2291,
+      "rank": 16
+    },
+    {
+      "name": "Harappan Civilization",
+      "pagerank_authority": 0.01817,
+      "in_degree": 50,
+      "out_degree": 9,
+      "betweenness_centrality": 0.003458,
+      "structural_health": 82.86,
+      "quality_tier": "C Class",
+      "word_count": 1040,
+      "rank": 17
+    },
+    {
+      "name": "Classical Music",
+      "pagerank_authority": 0.018103,
+      "in_degree": 64,
+      "out_degree": 4,
+      "betweenness_centrality": 0.002009,
+      "structural_health": 63.59,
+      "quality_tier": "C Class",
+      "word_count": 951,
+      "rank": 18
+    },
+    {
+      "name": "Plate Tectonics",
+      "pagerank_authority": 0.017485,
+      "in_degree": 47,
+      "out_degree": 6,
+      "betweenness_centrality": 0.002796,
+      "structural_health": 58.4,
+      "quality_tier": "C Class",
+      "word_count": 908,
+      "rank": 19
+    },
+    {
+      "name": "Universal Declaration of Human Rights",
+      "pagerank_authority": 0.017315,
+      "in_degree": 58,
+      "out_degree": 6,
+      "betweenness_centrality": 0.003408,
+      "structural_health": 64.18,
+      "quality_tier": "C Class",
+      "word_count": 820,
+      "rank": 20
+    }
+  ],
+  "node_metrics_sample": {
+    "Artificial Intelligence": {
+      "pagerank": 0.010363,
+      "in_degree": 56,
+      "out_degree": 3,
+      "betweenness": 0.001303,
+      "tier": "C Class",
+      "health": 75.56
+    },
+    "Quantum Computing": {
+      "pagerank": 0.013691,
+      "in_degree": 50,
+      "out_degree": 6,
+      "betweenness": 0.002723,
+      "tier": "B Class",
+      "health": 97.39
+    },
+    "CRISPR Gene Editing": {
+      "pagerank": 0.012361,
+      "in_degree": 41,
+      "out_degree": 3,
+      "betweenness": 0.001138,
+      "tier": "Stub Class",
+      "health": 36.94
+    },
+    "James Webb Space Telescope": {
+      "pagerank": 0.022672,
+      "in_degree": 64,
+      "out_degree": 3,
+      "betweenness": 0.002558,
+      "tier": "Start Class",
+      "health": 59.58
+    },
+    "Thermodynamics": {
+      "pagerank": 0.013483,
+      "in_degree": 41,
+      "out_degree": 6,
+      "betweenness": 0.002094,
+      "tier": "Good / Featured Article",
+      "health": 98.72
+    },
+    "General Relativity": {
+      "pagerank": 0.027392,
+      "in_degree": 67,
+      "out_degree": 4,
+      "betweenness": 0.003959,
+      "tier": "B Class",
+      "health": 95.15
+    },
+    "Photosynthesis": {
+      "pagerank": 0.020881,
+      "in_degree": 44,
+      "out_degree": 8,
+      "betweenness": 0.003397,
+      "tier": "B Class",
+      "health": 93.86
+    },
+    "Superconductivity": {
+      "pagerank": 0.016652,
+      "in_degree": 59,
+      "out_degree": 8,
+      "betweenness": 0.003274,
+      "tier": "B Class",
+      "health": 98.13
+    },
+    "Nanotechnology": {
+      "pagerank": 0.015335,
+      "in_degree": 58,
+      "out_degree": 7,
+      "betweenness": 0.004585,
+      "tier": "Good / Featured Article",
+      "health": 100.0
+    },
+    "Deep Learning": {
+      "pagerank": 0.012134,
+      "in_degree": 66,
+      "out_degree": 5,
+      "betweenness": 0.001614,
+      "tier": "C Class",
+      "health": 62.77
+    },
+    "Graphene": {
+      "pagerank": 0.022377,
+      "in_degree": 57,
+      "out_degree": 7,
+      "betweenness": 0.003232,
+      "tier": "Good / Featured Article",
+      "health": 100.0
+    },
+    "Higgs Boson": {
+      "pagerank": 0.012649,
+      "in_degree": 61,
+      "out_degree": 3,
+      "betweenness": 0.001441,
+      "tier": "Stub Class",
+      "health": 37.9
+    },
+    "Plate Tectonics": {
+      "pagerank": 0.017485,
+      "in_degree": 47,
+      "out_degree": 6,
+      "betweenness": 0.002796,
+      "tier": "C Class",
+      "health": 58.4
+    },
+    "Dark Matter": {
+      "pagerank": 0.009816,
+      "in_degree": 38,
+      "out_degree": 9,
+      "betweenness": 0.003574,
+      "tier": "C Class",
+      "health": 69.3
+    },
+    "Microbiome": {
+      "pagerank": 0.016538,
+      "in_degree": 50,
+      "out_degree": 9,
+      "betweenness": 0.003911,
+      "tier": "Start Class",
+      "health": 45.96
+    },
+    "Byzantine Empire": {
+      "pagerank": 0.020125,
+      "in_degree": 53,
+      "out_degree": 7,
+      "betweenness": 0.003651,
+      "tier": "C Class",
+      "health": 59.2
+    },
+    "Industrial Revolution": {
+      "pagerank": 0.019453,
+      "in_degree": 56,
+      "out_degree": 3,
+      "betweenness": 0.00171,
+      "tier": "B Class",
+      "health": 83.68
+    },
+    "Silk Road": {
+      "pagerank": 0.010662,
+      "in_degree": 49,
+      "out_degree": 5,
+      "betweenness": 0.001884,
+      "tier": "C Class",
+      "health": 84.46
+    },
+    "Ancient Alexandria": {
+      "pagerank": 0.010963,
+      "in_degree": 65,
+      "out_degree": 8,
+      "betweenness": 0.002517,
+      "tier": "Good / Featured Article",
+      "health": 99.53
+    },
+    "Magna Carta": {
+      "pagerank": 0.012445,
+      "in_degree": 63,
+      "out_degree": 9,
+      "betweenness": 0.003938,
+      "tier": "Start Class",
+      "health": 54.11
+    },
+    "Renaissance Humanism": {
+      "pagerank": 0.016775,
+      "in_degree": 57,
+      "out_degree": 8,
+      "betweenness": 0.004108,
+      "tier": "Good / Featured Article",
+      "health": 100.0
+    },
+    "Meiji Restoration": {
+      "pagerank": 0.003654,
+      "in_degree": 48,
+      "out_degree": 3,
+      "betweenness": 0.000991,
+      "tier": "B Class",
+      "health": 97.58
+    },
+    "French Revolution": {
+      "pagerank": 0.012872,
+      "in_degree": 46,
+      "out_degree": 6,
+      "betweenness": 0.002201,
+      "tier": "Start Class",
+      "health": 47.34
+    },
+    "Harappan Civilization": {
+      "pagerank": 0.01817,
+      "in_degree": 50,
+      "out_degree": 9,
+      "betweenness": 0.003458,
+      "tier": "C Class",
+      "health": 82.86
+    },
+    "Space Race": {
+      "pagerank": 0.034491,
+      "in_degree": 64,
+      "out_degree": 7,
+      "betweenness": 0.005989,
+      "tier": "C Class",
+      "health": 63.05
+    },
+    "Ottoman Empire": {
+      "pagerank": 0.006722,
+      "in_degree": 45,
+      "out_degree": 6,
+      "betweenness": 0.001954,
+      "tier": "C Class",
+      "health": 71.24
+    },
+    "Mesopotamia": {
+      "pagerank": 0.014758,
+      "in_degree": 54,
+      "out_degree": 4,
+      "betweenness": 0.001879,
+      "tier": "Stub Class",
+      "health": 35.57
+    },
+    "Mariana Trench": {
+      "pagerank": 0.015742,
+      "in_degree": 50,
+      "out_degree": 8,
+      "betweenness": 0.002504,
+      "tier": "C Class",
+      "health": 54.33
+    },
+    "Amazon Rainforest": {
+      "pagerank": 0.011047,
+      "in_degree": 55,
+      "out_degree": 6,
+      "betweenness": 0.001966,
+      "tier": "B Class",
+      "health": 89.08
+    },
+    "Sahara Desert": {
+      "pagerank": 0.013093,
+      "in_degree": 49,
+      "out_degree": 6,
+      "betweenness": 0.002341,
+      "tier": "B Class",
+      "health": 87.3
+    },
+    "Ring of Fire": {
+      "pagerank": 0.010561,
+      "in_degree": 57,
+      "out_degree": 7,
+      "betweenness": 0.002599,
+      "tier": "Stub Class",
+      "health": 31.2
+    },
+    "Great Barrier Reef": {
+      "pagerank": 0.015713,
+      "in_degree": 49,
+      "out_degree": 3,
+      "betweenness": 0.001142,
+      "tier": "B Class",
+      "health": 92.11
+    },
+    "Lake Baikal": {
+      "pagerank": 0.015058,
+      "in_degree": 52,
+      "out_degree": 9,
+      "betweenness": 0.004323,
+      "tier": "C Class",
+      "health": 65.34
+    },
+    "Mount Everest": {
+      "pagerank": 0.016734,
+      "in_degree": 58,
+      "out_degree": 4,
+      "betweenness": 0.00267,
+      "tier": "Stub Class",
+      "health": 25.86
+    },
+    "Galapagos Islands": {
+      "pagerank": 0.009748,
+      "in_degree": 61,
+      "out_degree": 5,
+      "betweenness": 0.003358,
+      "tier": "B Class",
+      "health": 97.99
+    },
+    "Nile River Basin": {
+      "pagerank": 0.022608,
+      "in_degree": 60,
+      "out_degree": 5,
+      "betweenness": 0.002242,
+      "tier": "Stub Class",
+      "health": 44.37
+    },
+    "Antarctic Ice Sheet": {
+      "pagerank": 0.006786,
+      "in_degree": 55,
+      "out_degree": 2,
+      "betweenness": 0.00064,
+      "tier": "C Class",
+      "health": 55.39
+    },
+    "Renaissance Art": {
+      "pagerank": 0.018673,
+      "in_degree": 39,
+      "out_degree": 7,
+      "betweenness": 0.002024,
+      "tier": "Start Class",
+      "health": 70.35
+    },
+    "Postmodern Literature": {
+      "pagerank": 0.019608,
+      "in_degree": 56,
+      "out_degree": 3,
+      "betweenness": 0.001873,
+      "tier": "Start Class",
+      "health": 61.35
+    },
+    "Baroque Architecture": {
+      "pagerank": 0.010836,
+      "in_degree": 57,
+      "out_degree": 5,
+      "betweenness": 0.001891,
+      "tier": "Good / Featured Article",
+      "health": 100.0
+    },
+    "Impressionism": {
+      "pagerank": 0.018396,
+      "in_degree": 61,
+      "out_degree": 6,
+      "betweenness": 0.002954,
+      "tier": "B Class",
+      "health": 93.68
+    },
+    "Surrealism": {
+      "pagerank": 0.012903,
+      "in_degree": 62,
+      "out_degree": 9,
+      "betweenness": 0.004119,
+      "tier": "Start Class",
+      "health": 42.56
+    },
+    "Homeric Epics": {
+      "pagerank": 0.016623,
+      "in_degree": 55,
+      "out_degree": 4,
+      "betweenness": 0.001857,
+      "tier": "Stub Class",
+      "health": 31.06
+    },
+    "Classical Music": {
+      "pagerank": 0.018103,
+      "in_degree": 64,
+      "out_degree": 4,
+      "betweenness": 0.002009,
+      "tier": "C Class",
+      "health": 63.59
+    },
+    "Bauhaus Movement": {
+      "pagerank": 0.015266,
+      "in_degree": 61,
+      "out_degree": 7,
+      "betweenness": 0.002683,
+      "tier": "C Class",
+      "health": 69.2
+    },
+    "Film Noir": {
+      "pagerank": 0.019237,
+      "in_degree": 54,
+      "out_degree": 9,
+      "betweenness": 0.004096,
+      "tier": "B Class",
+      "health": 98.09
+    },
+    "Kabuki Theatre": {
+      "pagerank": 0.020189,
+      "in_degree": 57,
+      "out_degree": 5,
+      "betweenness": 0.002489,
+      "tier": "Stub Class",
+      "health": 37.74
+    },
+    "Game Theory": {
+      "pagerank": 0.023033,
+      "in_degree": 68,
+      "out_degree": 7,
+      "betweenness": 0.002943,
+      "tier": "B Class",
+      "health": 96.9
+    },
+    "Universal Declaration of Human Rights": {
+      "pagerank": 0.017315,
+      "in_degree": 58,
+      "out_degree": 6,
+      "betweenness": 0.003408,
+      "tier": "C Class",
+      "health": 64.18
+    },
+    "Epistemology": {
+      "pagerank": 0.016818,
+      "in_degree": 67,
+      "out_degree": 9,
+      "betweenness": 0.005885,
+      "tier": "Start Class",
+      "health": 45.13
+    }
+  }
+}
