@@ -57,6 +57,13 @@ import matplotlib.patches as mpatches
 import seaborn as sns
 import networkx as nx
 
+# If running on Kaggle, ensure repo modules and benchmarks are cloned into working directory
+if not os.path.exists("src") and not os.path.exists("../src") and not os.path.exists("/kaggle/working/src"):
+    print("[*] Kaggle Cloud Environment detected. Fetching WikiInsight-AI modules...")
+    !git clone https://github.com/Dominus005era/open-source-day.git /kaggle/working/repo
+    if os.path.exists("/kaggle/working/repo"):
+        sys.path.insert(0, "/kaggle/working/repo")
+
 warnings.filterwarnings("ignore")
 
 # Official Wikimedia Brand Identity Colors
@@ -99,22 +106,29 @@ if project_src not in sys.path:
 from src.data_loader import DataLoader
 
 # Check potential data locations (Kaggle input vs Local Data vs Benchmark Fallback)
-kaggle_path = "/kaggle/input/wikipedia-structured-contents/sample.parquet"
+kaggle_input_dir = "/kaggle/input/wikipedia-structured-contents"
+kaggle_repo_csv = "/kaggle/working/repo/data/sample_structured_wiki.csv"
 local_csv = os.path.join("..", "data", "sample_structured_wiki.csv")
 alt_csv = os.path.join("data", "sample_structured_wiki.csv")
 
-if os.path.exists(kaggle_path):
-    target_data = kaggle_path
-    print(f"[+] Detected Kaggle environment snapshot: {target_data}")
-elif os.path.exists(local_csv):
-    target_data = local_csv
-    print(f"[+] Detected local repository dataset: {target_data}")
-elif os.path.exists(alt_csv):
-    target_data = alt_csv
-    print(f"[+] Detected local data directory: {target_data}")
-else:
-    target_data = None
-    print("[*] Snapshot file absent. Triggering high-fidelity benchmark synthesis...")
+target_data = None
+if os.path.exists(kaggle_input_dir):
+    files = [os.path.join(kaggle_input_dir, f) for f in os.listdir(kaggle_input_dir) if f.endswith(('.parquet', '.jsonl', '.csv'))]
+    if files:
+        target_data = files[0]
+        print(f"[+] Detected Kaggle environment snapshot: {target_data}")
+if not target_data:
+    if os.path.exists(kaggle_repo_csv):
+        target_data = kaggle_repo_csv
+        print(f"[+] Detected cloned benchmark dataset: {target_data}")
+    elif os.path.exists(local_csv):
+        target_data = local_csv
+        print(f"[+] Detected local repository dataset: {target_data}")
+    elif os.path.exists(alt_csv):
+        target_data = alt_csv
+        print(f"[+] Detected local data directory: {target_data}")
+    else:
+        print("[*] Snapshot file absent. Triggering high-fidelity benchmark synthesis...")
 
 loader = DataLoader(data_path=target_data)
 df_raw = loader.load(max_records=500, fallback_synthetic=True)
