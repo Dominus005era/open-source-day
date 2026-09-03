@@ -1,0 +1,24 @@
+# WikiInsight-AI: Research & Analytics Engine for Wikimedia Structured Contents
+# WikiClub Tech Envoy Portfolio & Open Source Day Initiative
+
+# Core Data Science & Streaming Ingestion
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=14.0.0
+scipy>=1.10.0
+
+# Relational Graph Modeling & Network Topology
+networkx>=3.0
+
+# Publication Data Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Interactive Web Application
+streamlit>=1.30.0
+
+# Testing, Notebooks & Development
+pytest>=7.4.0
+nbformat>=5.9.0
+ipykernel>=6.25.0
