@@ -436,8 +436,8 @@ ax.fill_between(
 )
 
 ax.set_title("Citation Density vs. Article Depth (Quadrant Analysis)", fontsize=13, fontweight='bold', color=WIKI_DARK)
-ax.set_xlabel("Article Word Count ($W_{\\\\text{words}}$)")
-ax.set_ylabel("Citation Density ($\\rho_{\\\\text{cite}}$ - References per 1k Words)")
+ax.set_xlabel("Article Word Count")
+ax.set_ylabel("Citation Density (References per 1,000 Words)")
 ax.legend(bbox_to_anchor=(1.02, 1), loc='upper left', frameon=True, fontsize=9)
 
 plt.tight_layout()
@@ -477,7 +477,7 @@ bars = axes[0].barh(
     height=0.65
 )
 axes[0].set_title("Top 10 Knowledge Hubs by PageRank Authority", fontsize=12, fontweight='bold', color=WIKI_DARK)
-axes[0].set_xlabel("PageRank Authority Score ($\\alpha=0.85$)")
+axes[0].set_xlabel("PageRank Authority Score (Alpha = 0.85)")
 
 for bar in bars:
     w = bar.get_width()
